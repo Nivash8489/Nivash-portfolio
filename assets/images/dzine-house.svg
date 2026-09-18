@@ -1,1 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650"><rect width="1200" height="650" fill="#111"/><rect x="50" y="50" width="1100" height="550" rx="32" fill="#1d1d1d" stroke="#444" stroke-width="2"/><text x="90" y="260" font-family="Arial,sans-serif" font-size="54" font-weight="800" fill="#fff">DZINE HOUSE</text><text x="90" y="335" font-family="Arial,sans-serif" font-size="28" fill="#bbb">INTERIOR DESIGN</text><circle cx="1010" cy="170" r="70" fill="none" stroke="#fff" stroke-width="5"/><path d="M975 170h70M1010 135v70" stroke="#fff" stroke-width="5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Dzine House project thumbnail</title>
+  <desc id="desc">Warm premium interior design project graphic featuring a modern living room and Dzine House branding.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#211b17"/>
+      <stop offset=".55" stop-color="#5a4432"/>
+      <stop offset="1" stop-color="#c8a983"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a7655"/>
+      <stop offset="1" stop-color="#4b3627"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="750" rx="28" fill="#1d1713"/>
+  <rect x="0" y="0" width="1200" height="535" fill="url(#wall)"/>
+  <rect x="0" y="535" width="1200" height="215" fill="url(#floor)"/>
+
+  <!-- architectural panels -->
+  <rect x="690" y="70" width="390" height="430" fill="#70533a" opacity=".75"/>
+  <g opacity=".22" stroke="#ead1ad" stroke-width="4">
+    <path d="M720 70V500 M755 70V500 M790 70V500 M825 70V500 M860 70V500 M895 70V500 M930 70V500 M965 70V500 M1000 70V500 M1035 70V500"/>
+  </g>
+  <rect x="1050" y="110" width="95" height="390" fill="#e7d6bd" opacity=".72"/>
+  <rect x="1070" y="110" width="55" height="390" fill="#f5eadb" opacity=".8"/>
+
+  <!-- pendant lights -->
+  <g stroke="#d8b27d" stroke-width="6" fill="none">
+    <path d="M650 0V88"/>
+    <ellipse cx="650" cy="105" rx="70" ry="18"/>
+    <path d="M650 88v35"/>
+    <ellipse cx="650" cy="142" rx="48" ry="13"/>
+  </g>
+
+  <!-- artwork -->
+  <rect x="785" y="130" width="170" height="135" rx="4" fill="#f2e7d8"/>
+  <rect x="800" y="145" width="140" height="105" fill="#34291f"/>
+  <path d="M810 235 L850 185 L875 215 L900 170 L930 235Z" fill="#d4b48d"/>
+  <path d="M810 235 L850 200 L870 220 L900 190 L930 235Z" fill="#b38a60"/>
+
+  <!-- sofa -->
+  <g>
+    <rect x="395" y="400" width="510" height="145" rx="35" fill="#d9c5ab"/>
+    <rect x="425" y="345" width="455" height="115" rx="35" fill="#eadcc9"/>
+    <rect x="425" y="365" width="105" height="105" rx="28" fill="#d7c1a5"/>
+    <rect x="775" y="365" width="105" height="105" rx="28" fill="#d7c1a5"/>
+    <rect x="430" y="520" width="35" height="90" fill="#2a211b"/>
+    <rect x="835" y="520" width="35" height="90" fill="#2a211b"/>
+  </g>
+
+  <!-- coffee table -->
+  <ellipse cx="650" cy="590" rx="190" ry="42" fill="#3a2920"/>
+  <ellipse cx="650" cy="575" rx="190" ry="38" fill="#6b4931"/>
+  <rect x="625" y="585" width="50" height="90" rx="12" fill="#3b2a20"/>
+  <ellipse cx="650" cy="675" rx="75" ry="12" fill="#2d2119"/>
+
+  <!-- rug -->
+  <rect x="400" y="565" width="500" height="145" rx="12" fill="#c7b092" opacity=".7"/>
+  <path d="M420 590H880 M420 620H880 M420 650H880 M420 680H880" stroke="#e6d8c3" opacity=".45" stroke-width="3"/>
+
+  <!-- plant -->
+  <g transform="translate(315 315)">
+    <path d="M50 135 C10 105 5 70 20 35 C48 55 64 90 50 135Z" fill="#38563d"/>
+    <path d="M50 135 C80 90 105 65 130 70 C125 110 95 135 50 135Z" fill="#476b4c"/>
+    <path d="M55 135 C50 80 50 35 70 5 C92 48 86 93 55 135Z" fill="#567a55"/>
+    <rect x="35" y="130" width="70" height="85" rx="8" fill="#5b4030"/>
+  </g>
+
+  <!-- brand overlay -->
+  <rect x="0" y="0" width="1200" height="750" fill="#000000" opacity=".16"/>
+  <g transform="translate(72 62)">
+    <circle cx="45" cy="45" r="42" fill="#f1d0a2"/>
+    <path d="M20 58 L20 32 L38 16 L62 36 L62 70 L46 70 L46 48 L35 48 L35 70 L20 70Z" fill="#33251d"/>
+    <path d="M57 18 C68 24 74 34 74 45" fill="none" stroke="#33251d" stroke-width="5"/>
+  </g>
+  <text x="140" y="95" font-family="Arial, sans-serif" font-size="31" letter-spacing="6" font-weight="700" fill="#ffffff">DZINE HOUSE</text>
+  <text x="142" y="124" font-family="Arial, sans-serif" font-size="13" letter-spacing="5" fill="#f1d0a2">INTERIOR DESIGN</text>
+
+  <text x="75" y="285" font-family="Arial, sans-serif" font-size="20" letter-spacing="5" font-weight="700" fill="#f1d0a2">THOUGHTFUL SPACES. BETTER LIVING.</text>
+  <text x="75" y="345" font-family="Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Dzine House</text>
+  <text x="75" y="390" font-family="Arial, sans-serif" font-size="24" fill="#f4e7d5">Interior Design Website Project</text>
+  <rect x="75" y="425" width="210" height="48" rx="24" fill="#f1d0a2"/>
+  <text x="180" y="456" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#33251d">VIEW PROJECT →</text>
+
+  <rect x="75" y="650" width="335" height="45" rx="22" fill="#ffffff" opacity=".12"/>
+  <text x="242" y="679" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">DIGITAL MARKETING PROJECT</text>
+</svg>
