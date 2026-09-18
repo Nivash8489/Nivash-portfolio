@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="title desc">
+  <title id="title">DigitalGrowthTamil</title>
+  <desc id="desc">DigitalGrowthTamil project logo</desc>
+
+  <!-- Compact transparent logo designed for portfolio project cards -->
+  <g transform="translate(35 42)">
+    <!-- Growth icon -->
+    <path d="M8 35V205H62V82H105V205H160V35"
+          fill="none" stroke="#1268D8" stroke-width="18"
+          stroke-linejoin="round"/>
+    <path d="M35 177L82 132L115 157L205 65"
+          fill="none" stroke="#16A6D8" stroke-width="18"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M176 65H208V97"
+          fill="none" stroke="#16A6D8" stroke-width="18"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="25" y="148" width="22" height="57" rx="3" fill="#08A6C9"/>
+    <rect x="65" y="121" width="22" height="84" rx="3" fill="#10B59B"/>
+    <rect x="105" y="92" width="22" height="113" rx="3" fill="#22B76F"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="270" y="145"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58"
+        font-weight="700"
+        letter-spacing="-1.5">
+    <tspan fill="#102B52">DigitalGrowth</tspan><tspan fill="#1687E8">Tamil</tspan>
+  </text>
+
+  <!-- Short tagline -->
+  <text x="273" y="190"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        font-weight="500"
+        letter-spacing="3"
+        fill="#29425E">LEARN  |  GROW  |  BUILD YOUR FUTURE</text>
+
+  <!-- Tamil tagline -->
+  <text x="273" y="225"
+        font-family="Noto Sans Tamil, Nirmala UI, Latha, Arial, sans-serif"
+        font-size="18"
+        fill="#29425E">கற்றுக் கொள்  |  வளர  |  உங்கள் எதிர்காலத்தை உருவாக்கு</text>
+</svg>
