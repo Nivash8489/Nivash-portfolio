@@ -1,0 +1,19 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <g id="Rectangle_24" data-name="Rectangle 24" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="1200" height="750" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1199" height="749" fill="none"/>
+  </g>
+  <g id="DigitalGrowthTamil_Portfolio" transform="translate(-30.567 136)">
+    <g id="Group_6" data-name="Group 6" transform="translate(43 77)">
+      <path id="Path_12" data-name="Path 12" d="M8,35V294.532H90.44V106.753h65.646V294.532h83.966V35" transform="translate(-8 -35)" fill="none" stroke="#1268d8" stroke-linejoin="round" stroke-width="18"/>
+      <path id="Path_13" data-name="Path 13" d="M35,235.986l71.753-68.7,50.38,38.167L294.532,65" transform="translate(6.22 -19.2)" fill="none" stroke="#16a6d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+      <path id="Path_14" data-name="Path 14" d="M176,65h48.853v48.853" transform="translate(80.479 -19.2)" fill="none" stroke="#16a6d8" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="33" height="87" rx="3" transform="translate(26.135 172.766)" fill="#08a6c9"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="33" height="128" rx="3" transform="translate(87.135 131.766)" fill="#10b59b"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="34" height="173" rx="3" transform="translate(148.135 86.766)" fill="#22b76f"/>
+    </g>
+    <text id="DigitalGrowthTamil" transform="translate(389.135 179.766)" fill="#102b52" font-size="88" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="-0.026em"><tspan x="0" y="0">DigitalGrowth</tspan><tspan y="0" fill="#1687e8">Tamil</tspan></text>
+    <text id="LEARN_GROW_BUILD_YOUR_FUTURE" data-name="LEARN | GROW | BUILD YOUR FUTURE" transform="translate(394.135 248.766)" fill="#29425e" font-size="27" font-family="ArialMT, Arial" letter-spacing="0.167em"><tspan x="0" y="0">LEARN | GROW | BUILD YOUR FUTURE</tspan></text>
+    <text id="கற்றுக்_கொள்_வளர_உங்கள்_எதிர்காலத்தை_உருவாக்கு" data-name="கற்றுக் கொள் | வளர | உங்கள் எதிர்காலத்தை உருவாக்கு" transform="translate(394.135 302.766)" fill="#29425e" font-size="27" font-family="NirmalaUI, Nirmala UI"><tspan x="0" y="0">கற்றுக்</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">கொள்</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> | </tspan><tspan y="0">வளர</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI, Segoe UI"> | </tspan><tspan y="0">உங்கள்</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">எதிர்காலத்தை</tspan><tspan y="0" font-family="SegoeUI, Segoe UI"> </tspan><tspan y="0">உருவாக்கு</tspan></text>
+  </g>
+</svg>
