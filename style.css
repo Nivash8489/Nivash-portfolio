@@ -280,6 +280,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 760px) {
   html { scroll-padding-top: 70px; }
   .container { width: min(100% - 32px, 1160px); }
+  .reveal { opacity: 1; transform: none; transition: none; }
   .nav-wrap { height: 70px; }
   .brand-mark { width: 36px; height: 36px; }
   .header-resume { margin-left: auto; height: 38px; }
@@ -301,15 +302,16 @@ img { display: block; max-width: 100%; }
   .nav-links a { width: 100%; padding: 11px 12px; }
   .nav-links a.active::after { display: none; }
 
-  .hero { min-height: 720px; }
+  .hero {
+    min-height: 720px;
+    background: linear-gradient(135deg, #091827 0%, #10243a 72%, #132d49 100%);
+  }
+  .hero-grid-pattern { display: none; }
   .hero-layout { min-height: 720px; grid-template-columns: 1fr; padding-top: 70px; }
   .hero-copy { padding-top: 55px; align-self: start; }
   .hero h1 { max-width: 580px; font-size: clamp(43px, 13vw, 58px); letter-spacing: -2.5px; }
   .hero-summary { max-width: 520px; font-size: 15px; }
-  .hero-profile { height: 310px; position: absolute; right: -20px; bottom: 0; width: 260px; opacity: .35; }
-  .profile-frame { width: 260px; height: 310px; border-radius: 140px 140px 8px 8px; }
-  .profile-accent, .metric-card { display: none; }
-  .profile-label { left: 15px; bottom: 15px; opacity: 0; }
+  .hero-profile { display: none; }
   .hero-contact { display: none; }
 
   .stats-grid { height: auto; grid-template-columns: repeat(2,1fr); padding: 18px 0; }
@@ -348,8 +350,6 @@ img { display: block; max-width: 100%; }
   .menu-toggle { margin-left: auto; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
   .button { width: 100%; }
-  .hero-profile { width: 200px; }
-  .profile-frame { width: 200px; }
   .stats-grid strong { font-size: 18px; }
   .section-intro h2, .section-heading h2, .contact-layout h2 { letter-spacing: -1.4px; }
   .project-preview { height: 210px; }
