@@ -44,3 +44,32 @@ const revealObserver = new IntersectionObserver(entries => {
 document.querySelectorAll(".reveal").forEach(element => revealObserver.observe(element));
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+const contactDialog = document.getElementById("contact-dialog");
+const openContact = document.getElementById("open-contact");
+const closeContact = document.getElementById("close-contact");
+const copyEmail = document.getElementById("copy-email");
+const copyEmailLabel = document.getElementById("copy-email-label");
+
+openContact.addEventListener("click", () => {
+  if (typeof contactDialog.showModal === "function") {
+    contactDialog.showModal();
+  } else {
+    contactDialog.setAttribute("open", "");
+  }
+});
+
+closeContact.addEventListener("click", () => contactDialog.close());
+
+contactDialog.addEventListener("click", event => {
+  if (event.target === contactDialog) contactDialog.close();
+});
+
+copyEmail.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText("nivashramki18@gmail.com");
+    copyEmailLabel.textContent = "Email copied";
+  } catch {
+    copyEmailLabel.textContent = "nivashramki18@gmail.com";
+  }
+});

@@ -229,6 +229,39 @@ img { display: block; max-width: 100%; }
 .footer-social { display: flex; gap: 18px; font-size: 10px; }
 .footer-social a:hover { color: var(--white); }
 
+.contact-dialog {
+  width: min(520px, calc(100% - 32px));
+  margin: auto;
+  padding: 28px;
+  border: 0;
+  border-radius: 10px;
+  color: var(--ink);
+  box-shadow: 0 24px 80px rgba(4, 19, 36, .32);
+}
+.contact-dialog::backdrop { background: rgba(7, 20, 34, .72); backdrop-filter: blur(5px); }
+.dialog-header { display: flex; align-items: flex-start; justify-content: space-between; }
+.dialog-header h2 { font: 800 28px/1.2 var(--heading); letter-spacing: -1px; }
+.dialog-close {
+  width: 36px; height: 36px; border: 1px solid var(--line); border-radius: 50%;
+  background: var(--white); color: var(--ink); font-size: 24px; line-height: 1; cursor: pointer;
+}
+.dialog-summary { margin: 14px 0 20px; color: var(--ink-soft); font-size: 14px; }
+.dialog-actions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.dialog-action {
+  min-height: 82px; display: flex; align-items: center; gap: 12px;
+  padding: 12px; border: 1px solid var(--line); border-radius: 7px;
+  background: var(--white); color: var(--ink); text-align: left; cursor: pointer;
+  transition: .2s ease;
+}
+.dialog-action:hover { border-color: #9bb8df; background: var(--blue-pale); }
+.dialog-action > span {
+  flex: 0 0 38px; height: 38px; display: grid; place-items: center;
+  border-radius: 5px; background: var(--blue-pale); color: var(--blue-dark); font-weight: 800;
+}
+.dialog-action div { min-width: 0; }
+.dialog-action strong { display: block; font-size: 13px; }
+.dialog-action small { display: block; margin-top: 3px; color: #7c8998; font-size: 10px; overflow-wrap: anywhere; }
+
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
@@ -304,6 +337,7 @@ img { display: block; max-width: 100%; }
   .contact-layout { grid-template-columns: 1fr; gap: 28px; }
   .contact-actions { justify-self: start; }
   .contact-links { grid-template-columns: 1fr; gap: 20px; }
+  .dialog-actions { grid-template-columns: 1fr; }
   .footer-layout { min-height: 120px; flex-wrap: wrap; }
   .footer-layout p { order: 3; width: 100%; margin: 0; }
   .footer-social { margin-left: auto; }
